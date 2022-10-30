@@ -1,4 +1,6 @@
-﻿namespace EnergyCompany.Domain.Entities
+﻿using EnergyCompany.Domain.Enums;
+
+namespace EnergyCompany.Domain.Entities
 {
     public class Endpoint
     {
@@ -16,5 +18,15 @@
         public int MeterNumber { get; set; }
         public string FirmwareVersion { get; set; }
         public int SwitchState { get; set; }
+
+        public string getMeterModelId()
+        {
+            return Enum.Parse(typeof(EMeterModel), this.MeterModelId.ToString()).ToString();
+        }
+
+        public string getSwitchState()
+        {
+            return Enum.Parse(typeof(ESwitchState), this.SwitchState.ToString()).ToString();
+        }
     }
 }

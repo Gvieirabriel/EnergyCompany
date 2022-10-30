@@ -127,7 +127,7 @@ namespace EnergyCompany.Application.Mediator
             {
                 Endpoint endpoint = endpointService.FindEndpointById(serialNumber);
                 int value = endpoint.SwitchState;
-                Console.WriteLine("Current switch state is: " + Enum.Parse(typeof(ESwitchState), endpoint.SwitchState.ToString()));
+                Console.WriteLine("Current switch state is: " + endpoint.getSwitchState());
                 Console.WriteLine("Choose the equivalent numeric id value");
                 Console.WriteLine("Disconnected = 0");
                 Console.WriteLine("Connected = 1");
@@ -152,10 +152,10 @@ namespace EnergyCompany.Application.Mediator
         private static void printEndpoint(Endpoint endpoint)
         {
             Console.WriteLine("=============== Serial Number: " + endpoint.SerialNumber + " ===============");
-            Console.WriteLine("Meter model ID: " + Enum.Parse(typeof(EMeterModel), endpoint.MeterModelId.ToString()));
+            Console.WriteLine("Meter model ID: " + endpoint.getMeterModelId());
             Console.WriteLine("Meter Number: " + endpoint.MeterNumber);
             Console.WriteLine("Firmware Version: " + endpoint.FirmwareVersion);
-            Console.WriteLine("Switch State: " + Enum.Parse(typeof(ESwitchState), endpoint.SwitchState.ToString()));
+            Console.WriteLine("Switch State: " + endpoint.getSwitchState());
             Console.WriteLine("\n");
         }
         private bool validateMeterModel(int value)

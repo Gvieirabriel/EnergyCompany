@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EnergyCompany.src.Domain.Entities;
-using EnergyCompany.src.Domain.Exceptions;
+using EnergyCompany.Domain.Entities;
+using EnergyCompany.Domain.Exceptions;
+using EnergyCompany.Application.Service;
 
 namespace EnergyCompany.src.Application.Service.Tests
 {
