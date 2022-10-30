@@ -1,6 +1,6 @@
 ﻿namespace EnergyCompany.Application.Mediator
 {
-    internal interface IEndpointMediator
+    public interface IEndpointMediator
     {
         public void InsertEndpoint();
         public void UpdateEndpoint();

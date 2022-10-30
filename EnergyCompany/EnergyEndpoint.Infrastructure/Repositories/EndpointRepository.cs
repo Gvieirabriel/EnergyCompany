@@ -3,7 +3,7 @@ using EnergyCompany.Domain.Repository;
 
 namespace EnergyCompany.Infrastructure.Repositories
 {
-    internal class EndpointRepository : IEndpointRepository
+    public class EndpointRepository : IEndpointRepository
     {
         private static readonly List<Endpoint> endpoints = new List<Endpoint>();
         public void InsertEndpoint(Endpoint endpoint)

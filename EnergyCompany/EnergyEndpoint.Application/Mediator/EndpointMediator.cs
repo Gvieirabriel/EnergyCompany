@@ -5,7 +5,7 @@ using EnergyCompany.Domain.Exceptions;
 
 namespace EnergyCompany.Application.Mediator
 {
-    internal class EndpointMediator : IEndpointMediator
+    public class EndpointMediator : IEndpointMediator
     {
         EndpointService endpointService = new EndpointService();
 

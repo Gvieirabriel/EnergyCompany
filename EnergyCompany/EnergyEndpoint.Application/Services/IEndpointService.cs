@@ -2,7 +2,7 @@
 
 namespace EnergyCompany.Application.Service
 {
-    internal interface IEndpointService
+    public interface IEndpointService
     {
         public void CreateEndpoint(string serialNumber, int modelId, int number, string firmwareVersion, int state);
         public bool DeleteEndpointById(string serialNumber);
