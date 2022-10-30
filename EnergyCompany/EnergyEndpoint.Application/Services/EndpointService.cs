@@ -1,8 +1,8 @@
-﻿using EnergyCompany.src.Domain.Entities;
-using EnergyCompany.src.Domain.Exceptions;
-using EnergyCompany.src.Infrastructure.Repositories;
+﻿using EnergyCompany.Domain.Entities;
+using EnergyCompany.Domain.Exceptions;
+using EnergyCompany.Infrastructure.Repositories;
 
-namespace EnergyCompany.src.Application.Service
+namespace EnergyCompany.Application.Service
 {
     public class EndpointService : IEndpointService
     {

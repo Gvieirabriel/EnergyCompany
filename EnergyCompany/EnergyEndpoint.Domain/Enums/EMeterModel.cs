@@ -1,4 +1,4 @@
-﻿namespace EnergyCompany.src.Domain.Enums
+﻿namespace EnergyCompany.Domain.Enums
 {
     public enum EMeterModel
     {

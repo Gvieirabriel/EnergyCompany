@@ -1,4 +1,4 @@
-﻿namespace EnergyCompany.src.Domain.Exceptions
+﻿namespace EnergyCompany.Domain.Exceptions
 {
     [Serializable]
     public class ModelNotFoundException : Exception

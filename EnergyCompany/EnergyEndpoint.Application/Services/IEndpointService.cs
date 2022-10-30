@@ -1,6 +1,6 @@
-﻿using EnergyCompany.src.Domain.Entities;
+﻿using EnergyCompany.Domain.Entities;
 
-namespace EnergyCompany.src.Application.Service
+namespace EnergyCompany.Application.Service
 {
     internal interface IEndpointService
     {

@@ -1,7 +1,7 @@
-﻿using EnergyCompany.src.Domain.Entities;
-using EnergyCompany.src.Domain.Repository;
+﻿using EnergyCompany.Domain.Entities;
+using EnergyCompany.Domain.Repository;
 
-namespace EnergyCompany.src.Infrastructure.Repositories
+namespace EnergyCompany.Infrastructure.Repositories
 {
     internal class EndpointRepository : IEndpointRepository
     {

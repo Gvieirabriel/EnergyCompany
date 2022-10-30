@@ -1,4 +1,4 @@
-﻿namespace EnergyCompany.src.Domain.Entities
+﻿namespace EnergyCompany.Domain.Entities
 {
     public class Endpoint
     {

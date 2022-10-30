@@ -1,4 +1,4 @@
-﻿namespace EnergyCompany.src.Application.Mediator
+﻿namespace EnergyCompany.Application.Mediator
 {
     internal interface IEndpointMediator
     {

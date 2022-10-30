@@ -1,4 +1,4 @@
-﻿using EnergyCompany.src.Application.Mediator;
+﻿using EnergyCompany.Application.Mediator;
 using System.Diagnostics;
 
 namespace EnergyCompany.main;

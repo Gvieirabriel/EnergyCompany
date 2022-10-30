@@ -1,9 +1,9 @@
-﻿using EnergyCompany.src.Application.Service;
-using EnergyCompany.src.Domain.Entities;
-using EnergyCompany.src.Domain.Enums;
-using EnergyCompany.src.Domain.Exceptions;
+﻿using EnergyCompany.Application.Service;
+using EnergyCompany.Domain.Entities;
+using EnergyCompany.Domain.Enums;
+using EnergyCompany.Domain.Exceptions;
 
-namespace EnergyCompany.src.Application.Mediator
+namespace EnergyCompany.Application.Mediator
 {
     internal class EndpointMediator : IEndpointMediator
     {

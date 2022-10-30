@@ -1,6 +1,6 @@
-﻿using EnergyCompany.src.Domain.Entities;
+﻿using EnergyCompany.Domain.Entities;
 
-namespace EnergyCompany.src.Domain.Repository
+namespace EnergyCompany.Domain.Repository
 {
     public interface IEndpointRepository
     {
