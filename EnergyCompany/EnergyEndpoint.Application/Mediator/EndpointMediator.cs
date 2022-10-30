@@ -170,7 +170,7 @@ namespace EnergyCompany.Application.Mediator
             return true;
         }
 
-        public string readString()
+        private string readString()
         {
             string value = Console.ReadLine();
             while (string.IsNullOrWhiteSpace(value))
@@ -181,7 +181,7 @@ namespace EnergyCompany.Application.Mediator
             return value;
         }
 
-        public int readInt()
+        private int readInt()
         {
             string value = Console.ReadLine();
             int intValue;

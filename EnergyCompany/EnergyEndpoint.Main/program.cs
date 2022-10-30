@@ -14,7 +14,7 @@ public class View
         }
     }
 
-    private static bool MainMenu()
+    internal static bool MainMenu()
     {
         EndpointMediator endpointMediator = new EndpointMediator();
 
